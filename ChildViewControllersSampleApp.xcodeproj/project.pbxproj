@@ -13,6 +13,8 @@
 		2B12DC9C2589E6BE00393DE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B12DC9A2589E6BE00393DE4 /* Main.storyboard */; };
 		2B12DC9E2589E6C100393DE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B12DC9D2589E6C100393DE4 /* Assets.xcassets */; };
 		2B12DCA12589E6C100393DE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B12DC9F2589E6C100393DE4 /* LaunchScreen.storyboard */; };
+		2B12DCB22589EE8200393DE4 /* FirstChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DCB12589EE8200393DE4 /* FirstChildViewController.swift */; };
+		2B12DCB52589EE9800393DE4 /* SecondChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B12DCB42589EE9800393DE4 /* SecondChildViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2B12DC9D2589E6C100393DE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B12DCA02589E6C100393DE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B12DCA22589E6C100393DE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B12DCB12589EE8200393DE4 /* FirstChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstChildViewController.swift; sourceTree = "<group>"; };
+		2B12DCB42589EE9800393DE4 /* SecondChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondChildViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				2B12DC9D2589E6C100393DE4 /* Assets.xcassets */,
 				2B12DC9F2589E6C100393DE4 /* LaunchScreen.storyboard */,
 				2B12DCA22589E6C100393DE4 /* Info.plist */,
+				2B12DCB12589EE8200393DE4 /* FirstChildViewController.swift */,
+				2B12DCB42589EE9800393DE4 /* SecondChildViewController.swift */,
 			);
 			path = ChildViewControllersSampleApp;
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B12DCB22589EE8200393DE4 /* FirstChildViewController.swift in Sources */,
 				2B12DC992589E6BE00393DE4 /* ViewController.swift in Sources */,
 				2B12DC952589E6BE00393DE4 /* AppDelegate.swift in Sources */,
 				2B12DC972589E6BE00393DE4 /* SceneDelegate.swift in Sources */,
+				2B12DCB52589EE9800393DE4 /* SecondChildViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
